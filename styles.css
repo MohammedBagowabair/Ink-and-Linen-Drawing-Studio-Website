@@ -49,7 +49,7 @@ body {
   color: var(--ink);
   background-color: var(--linen);
   background-image: url("images/linen.webp");
-  background-size: 240px 240px;
+  background-size: 270px 270px;
   font-family: var(--serif);
   font-size: 1.125rem;
   line-height: 1.6;
@@ -250,7 +250,7 @@ a {
   position: relative;
   background-color: var(--paper);
   background-image: url("images/sheet.webp");
-  background-size: 220px 220px;
+  background-size: 260px 260px;
   box-shadow: var(--shadow);
 }
 
@@ -420,9 +420,9 @@ a {
 }
 
 .chip path {
-  stroke-dasharray: 1;
+  stroke-dasharray: 0.62 0.16;
   stroke-dashoffset: 0;
-  stroke-opacity: 0.28;
+  stroke-opacity: 0.75;
 }
 
 .chip[aria-pressed="true"] {
@@ -455,7 +455,7 @@ a {
   padding: 0.65rem 0.65rem 0.95rem;
   background-color: var(--paper);
   background-image: url("images/sheet.webp");
-  background-size: 220px 220px;
+  background-size: 260px 260px;
   box-shadow: var(--shadow);
   transform: rotate(var(--tilt));
 }
