@@ -283,7 +283,7 @@ Tape is a short rectangle, `1.15rem` tall, rotated `-3deg`, centered on the top 
 
 Studies tilt per sheet, from `-1.5deg` to `1.4deg` (the shared default is `-1deg`). The hero sheet is `-0.7deg`. The commission sheet is `-0.4deg`. The workshop note is `0.8deg`. On hover, when the pointer is real and motion is allowed, a study eases flat and up `4px` over `280ms`.
 
-Pencil marks are walnut, `2.2` wide, round caps, measured with `pathLength` 1. A title underline and the process thread are one unbroken stroke (`stroke-dasharray: 1`). A filter word carries a gapped stroke (`stroke-dasharray: 0.62 0.16`).
+Pencil marks are walnut, `2.2` wide, round caps, measured with `pathLength` 1. A title underline, the process thread, and the pressed filter word are one unbroken stroke (`stroke-dasharray: 1`). A resting filter word carries a gapped stroke (`stroke-dasharray: 0.62 0.16`).
 
 ### Named Rules
 
@@ -309,7 +309,7 @@ Focus, everywhere, is a `2px` deep-walnut outline, `3px` outside the control. Se
 ### Chips
 
 - **Style:** No fill and no border. Graphite words in the label voice, padding `0.35rem 0.55rem 0.15rem`, at least 48px tall. Under the word, a gapped walnut stroke at 75% opacity (`stroke-dasharray: 0.62 0.16`).
-- **State:** The pressed chip turns the word ink and the stroke fully opaque. When motion is allowed, that stroke draws in over `0.7s`. The dash pattern stays the gapped one. Reduced motion shows the stroke already drawn.
+- **State:** The pressed chip turns the word ink and replaces the gap with one unbroken stroke (`stroke-dasharray: 1`). When motion is allowed, that stroke draws in over `0.7s`. Reduced motion shows the stroke already drawn.
 
 ### Cards / Containers
 
@@ -336,13 +336,13 @@ The lightbox is a square rag-paper frame, padding `0.85rem`, width `min(920px, c
 
 ### Pencil and motion
 
-A title underline and the process thread are one unbroken walnut stroke. The thread draws once, over `1.1s`, when it is well into view. Filter strokes are the gapped pattern described under Chips. Reduced motion turns scroll snapping off, skips both draws, and leaves every stroke fully shown.
+A title underline and the process thread are one unbroken walnut stroke. The thread draws once, over `1.1s`, when it is well into view. A resting filter word stays gapped; the pressed word becomes one unbroken stroke and draws in. Reduced motion turns scroll snapping off, skips both draws, and leaves every stroke fully shown.
 
 ### Named Rules
 
 **The Blank Price Rule.** The price line names the blank and then says "Quote on request". It never carries a figure.
 
-**The Pencil Rule.** A stroke is walnut, 2.2 wide, round-capped, with `pathLength` 1. Under a title, and along the process thread, it is one unbroken stroke (`stroke-dasharray: 1`). Under a resting filter word it is gapped (`stroke-dasharray: 0.62 0.16`) at 75% opacity.
+**The Pencil Rule.** A stroke is walnut, 2.2 wide, round-capped, with `pathLength` 1. Under a title, along the process thread, and under the pressed filter word, it is one unbroken stroke (`stroke-dasharray: 1`). Under a resting filter word it is gapped (`stroke-dasharray: 0.62 0.16`) at 75% opacity.
 
 ## Do's and Don'ts
 

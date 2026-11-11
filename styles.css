@@ -430,6 +430,7 @@ a {
 }
 
 .chip[aria-pressed="true"] path {
+  stroke-dasharray: 1;
   stroke-opacity: 1;
 }
 
