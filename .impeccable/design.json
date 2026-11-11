@@ -1,0 +1,373 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-11T09:21:52Z",
+  "title": "Design System: Ink & Linen Studio",
+  "extensions": {
+    "colorMeta": {
+      "walnut": {
+        "role": "primary",
+        "displayName": "Walnut",
+        "canonical": "#6e3b28",
+        "tonalRamp": [
+          "oklch(15% 0.078 40.9)",
+          "oklch(26.4% 0.078 40.9)",
+          "oklch(37.9% 0.078 40.9)",
+          "oklch(49.3% 0.078 40.9)",
+          "oklch(60.7% 0.078 40.9)",
+          "oklch(72.1% 0.078 40.9)",
+          "oklch(83.6% 0.078 40.9)",
+          "oklch(95% 0.078 40.9)"
+        ]
+      },
+      "walnut-deep": {
+        "role": "primary",
+        "displayName": "Deep Walnut",
+        "canonical": "#4e291c",
+        "tonalRamp": [
+          "oklch(15% 0.060 40.0)",
+          "oklch(26.4% 0.060 40.0)",
+          "oklch(37.9% 0.060 40.0)",
+          "oklch(49.3% 0.060 40.0)",
+          "oklch(60.7% 0.060 40.0)",
+          "oklch(72.1% 0.060 40.0)",
+          "oklch(83.6% 0.060 40.0)",
+          "oklch(95% 0.060 40.0)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#241c16",
+        "tonalRamp": [
+          "oklch(15% 0.017 58.7)",
+          "oklch(26.4% 0.017 58.7)",
+          "oklch(37.9% 0.017 58.7)",
+          "oklch(49.3% 0.017 58.7)",
+          "oklch(60.7% 0.017 58.7)",
+          "oklch(72.1% 0.017 58.7)",
+          "oklch(83.6% 0.017 58.7)",
+          "oklch(95% 0.017 58.7)"
+        ]
+      },
+      "graphite": {
+        "role": "neutral",
+        "displayName": "Graphite",
+        "canonical": "#4a3b32",
+        "tonalRamp": [
+          "oklch(15% 0.026 52.6)",
+          "oklch(26.4% 0.026 52.6)",
+          "oklch(37.9% 0.026 52.6)",
+          "oklch(49.3% 0.026 52.6)",
+          "oklch(60.7% 0.026 52.6)",
+          "oklch(72.1% 0.026 52.6)",
+          "oklch(83.6% 0.026 52.6)",
+          "oklch(95% 0.026 52.6)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Rag Paper",
+        "canonical": "#f6efe4",
+        "tonalRamp": [
+          "oklch(15% 0.016 79.4)",
+          "oklch(26.4% 0.016 79.4)",
+          "oklch(37.9% 0.016 79.4)",
+          "oklch(49.3% 0.016 79.4)",
+          "oklch(60.7% 0.016 79.4)",
+          "oklch(72.1% 0.016 79.4)",
+          "oklch(83.6% 0.016 79.4)",
+          "oklch(95% 0.016 79.4)"
+        ]
+      },
+      "linen": {
+        "role": "neutral",
+        "displayName": "Linen",
+        "canonical": "#e7d6c2",
+        "tonalRamp": [
+          "oklch(15% 0.033 71.9)",
+          "oklch(26.4% 0.033 71.9)",
+          "oklch(37.9% 0.033 71.9)",
+          "oklch(49.3% 0.033 71.9)",
+          "oklch(60.7% 0.033 71.9)",
+          "oklch(72.1% 0.033 71.9)",
+          "oklch(83.6% 0.033 71.9)",
+          "oklch(95% 0.033 71.9)"
+        ]
+      },
+      "binding": {
+        "role": "neutral",
+        "displayName": "Binding Cloth",
+        "canonical": "#d7c4aa",
+        "tonalRamp": [
+          "oklch(15% 0.041 75.7)",
+          "oklch(26.4% 0.041 75.7)",
+          "oklch(37.9% 0.041 75.7)",
+          "oklch(49.3% 0.041 75.7)",
+          "oklch(60.7% 0.041 75.7)",
+          "oklch(72.1% 0.041 75.7)",
+          "oklch(83.6% 0.041 75.7)",
+          "oklch(95% 0.041 75.7)"
+        ]
+      },
+      "tape": {
+        "role": "neutral",
+        "displayName": "Masking Tape",
+        "canonical": "rgba(232, 214, 176, 0.78)",
+        "tonalRamp": [
+          "oklch(15% 0.054 85.6)",
+          "oklch(26.4% 0.054 85.6)",
+          "oklch(37.9% 0.054 85.6)",
+          "oklch(49.3% 0.054 85.6)",
+          "oklch(60.7% 0.054 85.6)",
+          "oklch(72.1% 0.054 85.6)",
+          "oklch(83.6% 0.054 85.6)",
+          "oklch(95% 0.054 85.6)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The studio name on the title page."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "A leaf heading."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "The handwritten name of a study, a station, or a commission kind."
+      },
+      "wordmark": {
+        "displayName": "Wordmark",
+        "purpose": "The margin mark in ink, and the signature in walnut."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Reading paragraphs, held to 62ch."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "The medium line under a title, in graphite."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Stamps, text links, and filter words."
+      },
+      "nav": {
+        "displayName": "Nav",
+        "purpose": "The margin index, lighter than a label."
+      },
+      "meta": {
+        "displayName": "Meta",
+        "purpose": "The price line and the study count."
+      }
+    },
+    "shadows": [
+      {
+        "name": "pin",
+        "value": "0.45rem 0.7rem 1.15rem rgba(36, 28, 22, 0.16)",
+        "purpose": "A sheet, a study, the dialog, and an unsheeted photograph lifted off the linen."
+      },
+      {
+        "name": "tape",
+        "value": "0 1px 1px rgba(36, 28, 22, 0.12)",
+        "purpose": "The masking tape where it meets the sheet."
+      },
+      {
+        "name": "float",
+        "value": "0.25rem 0.4rem 0.9rem rgba(36, 28, 22, 0.28)",
+        "purpose": "The floating WhatsApp button, heavier because it sits over the page."
+      },
+      {
+        "name": "binding",
+        "value": "inset -1px 0 0 rgba(36, 28, 22, 0.16)",
+        "purpose": "The inner edge of the stitch strip."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The only easing. Pencil draws and the hover lift both use it."
+      },
+      {
+        "name": "draw-chip",
+        "value": "0.7s",
+        "purpose": "A pressed filter stroke draws in."
+      },
+      {
+        "name": "draw-thread",
+        "value": "1.1s",
+        "purpose": "The process thread draws once when it enters view."
+      },
+      {
+        "name": "lift",
+        "value": "280ms",
+        "purpose": "A study eases flat and up 4px on hover."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "two-up",
+        "value": "700px"
+      },
+      {
+        "name": "spread",
+        "value": "900px"
+      },
+      {
+        "name": "three-up",
+        "value": "1040px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "WhatsApp Stamp",
+      "kind": "button",
+      "refersTo": "button-stamp",
+      "description": "The primary action. A hand-cut stamp, rotated slightly, that fills with walnut on hover.",
+      "html": "<a class=\"ds-stamp\" href=\"#inquire\">Inquire on WhatsApp</a>",
+      "css": ".ds-stamp {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  min-height: 48px;\n  padding: 0.65rem 1.15rem;\n  border: 2px solid var(--walnut, #6e3b28);\n  border-radius: 255px 18px 225px 18px / 18px 225px 18px 255px;\n  color: var(--walnut-deep, #4e291c);\n  background: transparent;\n  font-family: var(--hand, \"Shantell Sans\", \"Segoe Print\", \"Bradley Hand\", cursive);\n  font-weight: 600;\n  font-size: 1.08rem;\n  letter-spacing: -0.02em;\n  line-height: 1.1;\n  text-align: center;\n  text-decoration: none;\n  transform: rotate(-1deg);\n  cursor: pointer;\n}\n.ds-stamp:hover {\n  background: var(--walnut, #6e3b28);\n  color: var(--paper, #f6efe4);\n}\n.ds-stamp:focus-visible {\n  outline: 2px solid var(--walnut-deep, #4e291c);\n  outline-offset: 3px;\n}"
+    },
+    {
+      "name": "Text Link",
+      "kind": "button",
+      "refersTo": "button-text",
+      "description": "A handwritten link with a walnut underline, for turning the page or opening a sheet.",
+      "html": "<a class=\"ds-texty\" href=\"#work\">Turn to the studies</a>",
+      "css": ".ds-texty {\n  display: inline-flex;\n  align-items: center;\n  min-height: 44px;\n  color: var(--ink, #241c16);\n  background: transparent;\n  font-family: var(--hand, \"Shantell Sans\", \"Segoe Print\", \"Bradley Hand\", cursive);\n  font-weight: 600;\n  font-size: 1.08rem;\n  letter-spacing: -0.02em;\n  text-decoration: none;\n  border-bottom: 1.5px solid var(--walnut, #6e3b28);\n}\n.ds-texty:hover { color: var(--walnut-deep, #4e291c); }\n.ds-texty:focus-visible {\n  outline: 2px solid var(--walnut-deep, #4e291c);\n  outline-offset: 3px;\n}"
+    },
+    {
+      "name": "Lightbox Control",
+      "kind": "button",
+      "refersTo": "button-lightbox",
+      "description": "Close, Previous, and Next. A square ink outline that fills with ink on hover.",
+      "html": "<button class=\"ds-lb\" type=\"button\">Close</button>",
+      "css": ".ds-lb {\n  min-height: 44px;\n  min-width: 44px;\n  padding: 0.4rem 0.8rem;\n  border: 1.5px solid var(--ink, #241c16);\n  background: transparent;\n  color: var(--ink, #241c16);\n  font-family: var(--hand, \"Shantell Sans\", \"Segoe Print\", \"Bradley Hand\", cursive);\n  font-weight: 600;\n  font-size: 1.125rem;\n  letter-spacing: -0.02em;\n  cursor: pointer;\n}\n.ds-lb:hover {\n  background: var(--ink, #241c16);\n  color: var(--paper, #f6efe4);\n}\n.ds-lb:focus-visible {\n  outline: 2px solid var(--walnut-deep, #4e291c);\n  outline-offset: 3px;\n}"
+    },
+    {
+      "name": "Floating WhatsApp",
+      "kind": "button",
+      "refersTo": "button-float",
+      "description": "A 3.5rem walnut circle with a drawn speech-bubble mark. Hover deepens it to deep walnut.",
+      "html": "<a class=\"ds-float\" href=\"#whatsapp\" aria-label=\"Chat on WhatsApp\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M5 4.8h10.2A3.8 3.8 0 0 1 19 8.6v6.1a3.8 3.8 0 0 1-3.8 3.8H9.2L5 21.2V4.8z\"/></svg></a>",
+      "css": ".ds-float {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  width: 3.5rem;\n  height: 3.5rem;\n  border-radius: 50%;\n  background: var(--walnut, #6e3b28);\n  color: var(--paper, #f6efe4);\n  text-decoration: none;\n  box-shadow: 0.25rem 0.4rem 0.9rem rgba(36, 28, 22, 0.28);\n}\n.ds-float svg { width: 1.35rem; height: 1.35rem; }\n.ds-float:hover { background: var(--walnut-deep, #4e291c); color: var(--paper, #f6efe4); }\n.ds-float:focus-visible {\n  outline: 2px solid var(--walnut-deep, #4e291c);\n  outline-offset: 3px;\n}"
+    },
+    {
+      "name": "Filter Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "A medium filter. Resting words are graphite over a gapped walnut stroke at 75% opacity. Pressed words are ink and the stroke is fully opaque; it draws in over 0.7s.",
+      "html": "<div class=\"ds-filters\"><button class=\"ds-chip\" type=\"button\" aria-pressed=\"true\">All<svg viewBox=\"0 0 100 8\" preserveAspectRatio=\"none\" aria-hidden=\"true\"><path pathLength=\"1\" d=\"M1 5 C 20 2, 40 7, 60 4 S 84 6, 99 3\"></path></svg></button><button class=\"ds-chip\" type=\"button\" aria-pressed=\"false\">Drawings<svg viewBox=\"0 0 100 8\" preserveAspectRatio=\"none\" aria-hidden=\"true\"><path pathLength=\"1\" d=\"M1 4 C 22 7, 38 2, 58 5 S 82 2, 99 5\"></path></svg></button></div>",
+      "css": ".ds-filters {\n  display: flex;\n  flex-wrap: wrap;\n  align-items: flex-end;\n  gap: 0.35rem 0.4rem;\n}\n.ds-chip {\n  display: grid;\n  justify-items: start;\n  min-height: 48px;\n  padding: 0.35rem 0.55rem 0.15rem;\n  border: 0;\n  background: transparent;\n  color: var(--graphite, #4a3b32);\n  font-family: var(--hand, \"Shantell Sans\", \"Segoe Print\", \"Bradley Hand\", cursive);\n  font-weight: 600;\n  font-size: 1.08rem;\n  letter-spacing: -0.02em;\n  cursor: pointer;\n}\n.ds-chip svg { width: 100%; height: 0.5rem; display: block; }\n.ds-chip path {\n  fill: none;\n  stroke: var(--walnut, #6e3b28);\n  stroke-width: 2.2;\n  stroke-linecap: round;\n  stroke-dasharray: 0.62 0.16;\n  stroke-dashoffset: 0;\n  stroke-opacity: 0.75;\n}\n.ds-chip[aria-pressed=\"true\"] { color: var(--ink, #241c16); }\n.ds-chip[aria-pressed=\"true\"] path { stroke-opacity: 1; }\n.ds-chip:focus-visible {\n  outline: 2px solid var(--walnut-deep, #4e291c);\n  outline-offset: 3px;\n}\n@media (prefers-reduced-motion: no-preference) {\n  .ds-chip[aria-pressed=\"true\"] path {\n    stroke-dashoffset: 1;\n    animation: ds-draw 0.7s var(--ease, cubic-bezier(0.16, 1, 0.3, 1)) forwards;\n  }\n}\n@keyframes ds-draw { to { stroke-dashoffset: 0; } }"
+    },
+    {
+      "name": "Study Card",
+      "kind": "card",
+      "refersTo": "card-study",
+      "description": "A pinned rag sheet: tape at the top, a slight tilt, the pin shadow, a blank price line.",
+      "html": "<article class=\"ds-study\"><span class=\"ds-tape\" aria-hidden=\"true\"></span><div class=\"ds-picture\"></div><h3 class=\"ds-study-title\">The Evening Sitter</h3><p class=\"ds-medium\">Charcoal on paper</p><p class=\"ds-price\"><span>Price</span> <b>Quote on request</b></p><a class=\"ds-inquire\" href=\"#inquire\">Inquire on WhatsApp</a></article>",
+      "css": ".ds-study {\n  position: relative;\n  max-width: 22rem;\n  padding: 0.65rem 0.65rem 0.95rem;\n  background-color: var(--paper, #f6efe4);\n  background-image: url(\"images/sheet.webp\");\n  background-size: 260px 260px;\n  box-shadow: var(--shadow, 0.45rem 0.7rem 1.15rem rgba(36, 28, 22, 0.16));\n  color: var(--ink, #241c16);\n  transform: rotate(-1.1deg);\n}\n.ds-tape {\n  position: absolute;\n  z-index: 1;\n  top: -0.55rem;\n  left: 50%;\n  width: 3.4rem;\n  height: 1.15rem;\n  transform: translateX(-50%) rotate(-3deg);\n  background: rgba(232, 214, 176, 0.78);\n  box-shadow: 0 1px 1px rgba(36, 28, 22, 0.12);\n}\n.ds-picture {\n  width: 100%;\n  height: 12rem;\n  background: #e7dccb;\n}\n.ds-study-title {\n  margin: 0.75rem 0 0;\n  font-family: var(--hand, \"Shantell Sans\", \"Segoe Print\", \"Bradley Hand\", cursive);\n  font-weight: 600;\n  font-size: 1.55rem;\n  line-height: 1.05;\n  letter-spacing: -0.03em;\n}\n.ds-medium {\n  margin: 0.15rem 0 0;\n  color: var(--graphite, #4a3b32);\n  font-family: var(--serif, \"Source Serif 4\", Palatino, \"Palatino Linotype\", \"Book Antiqua\", serif);\n  font-size: 1rem;\n  line-height: 1.6;\n}\n.ds-price {\n  display: flex;\n  justify-content: space-between;\n  gap: 1rem;\n  margin: 0.55rem 0 0;\n  padding-bottom: 0.15rem;\n  border-bottom: 1px solid rgba(36, 28, 22, 0.28);\n  font-family: var(--hand, \"Shantell Sans\", \"Segoe Print\", \"Bradley Hand\", cursive);\n  font-size: 0.98rem;\n  letter-spacing: -0.02em;\n}\n.ds-price b {\n  font-weight: 600;\n  color: var(--walnut-deep, #4e291c);\n}\n.ds-inquire {\n  display: inline-flex;\n  align-items: center;\n  min-height: 44px;\n  margin-top: 0.45rem;\n  color: var(--walnut-deep, #4e291c);\n  font-family: var(--hand, \"Shantell Sans\", \"Segoe Print\", \"Bradley Hand\", cursive);\n  font-weight: 600;\n  font-size: 1.02rem;\n  letter-spacing: -0.02em;\n  text-decoration: none;\n  border-bottom: 1.5px solid var(--walnut, #6e3b28);\n}\n.ds-inquire:focus-visible {\n  outline: 2px solid var(--walnut-deep, #4e291c);\n  outline-offset: 3px;\n}\n@media (hover: hover) and (prefers-reduced-motion: no-preference) {\n  .ds-study { transition: transform 280ms var(--ease, cubic-bezier(0.16, 1, 0.3, 1)); }\n  .ds-study:hover { transform: rotate(0deg) translateY(-4px); }\n}"
+    },
+    {
+      "name": "Margin Index",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "The top edge of the book. The wordmark, then the leaves, in the artist's hand. It wraps; there is no separate mobile menu.",
+      "html": "<div class=\"ds-index\"><a class=\"ds-mark\" href=\"#top\">Ink &amp; Linen</a><nav aria-label=\"Studio\"><a href=\"#work\">Work</a><a href=\"#process\">Process</a><a href=\"#commissions\">Commissions</a><a href=\"#about\">About</a><a href=\"#contact\">Contact</a></nav></div>",
+      "css": ".ds-index {\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  gap: 0.35rem 1rem;\n}\n.ds-mark {\n  font-family: var(--hand, \"Shantell Sans\", \"Segoe Print\", \"Bradley Hand\", cursive);\n  font-weight: 600;\n  font-size: 1.45rem;\n  letter-spacing: -0.03em;\n  color: var(--ink, #241c16);\n  text-decoration: none;\n  padding: 0.35rem 0;\n}\n.ds-index nav {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 0.1rem;\n}\n.ds-index nav a {\n  display: inline-flex;\n  align-items: center;\n  min-height: 44px;\n  padding: 0.35rem 0.5rem;\n  color: var(--ink, #241c16);\n  font-family: var(--hand, \"Shantell Sans\", \"Segoe Print\", \"Bradley Hand\", cursive);\n  font-weight: 500;\n  font-size: 1.05rem;\n  letter-spacing: -0.02em;\n  text-decoration: none;\n}\n.ds-index nav a:hover { color: var(--walnut-deep, #4e291c); }\n.ds-mark:focus-visible,\n.ds-index nav a:focus-visible {\n  outline: 2px solid var(--walnut-deep, #4e291c);\n  outline-offset: 3px;\n}"
+    },
+    {
+      "name": "Price Line",
+      "kind": "custom",
+      "refersTo": "price-line",
+      "description": "The blank at the foot of a sheet. Price on the left, Quote on request in deep walnut, over a hairline of ink.",
+      "html": "<p class=\"ds-blank\"><span>Price</span> <b>Quote on request</b></p>",
+      "css": ".ds-blank {\n  display: flex;\n  justify-content: space-between;\n  gap: 1rem;\n  margin: 0;\n  padding-bottom: 0.15rem;\n  border-bottom: 1px solid rgba(36, 28, 22, 0.28);\n  color: var(--ink, #241c16);\n  font-family: var(--hand, \"Shantell Sans\", \"Segoe Print\", \"Bradley Hand\", cursive);\n  font-size: 1.02rem;\n  letter-spacing: -0.02em;\n}\n.ds-blank b {\n  font-weight: 600;\n  color: var(--walnut-deep, #4e291c);\n}"
+    },
+    {
+      "name": "Lightbox",
+      "kind": "custom",
+      "refersTo": "dialog",
+      "description": "A square rag-paper frame on an ink scrim, with an unbroken pencil stroke under the title.",
+      "html": "<div class=\"ds-scrim\"><div class=\"ds-dialog\"><div class=\"ds-dialog-top\"><button class=\"ds-lb\" type=\"button\">Close</button></div><div class=\"ds-well\"></div><p class=\"ds-lb-title\">The Evening Sitter</p><svg class=\"ds-rule\" viewBox=\"0 0 100 8\" preserveAspectRatio=\"none\" aria-hidden=\"true\"><path pathLength=\"1\" d=\"M1 5 C 18 2, 34 7, 52 4 S 80 7, 99 3\"></path></svg><p class=\"ds-medium\">Charcoal on paper</p></div></div>",
+      "css": ".ds-scrim {\n  background: rgba(36, 28, 22, 0.72);\n  padding: 0.85rem;\n}\n.ds-dialog {\n  width: min(920px, calc(100% - 1.2rem));\n  margin: 0 auto;\n  padding: 0.85rem;\n  border: 0;\n  background: var(--paper, #f6efe4);\n  color: var(--ink, #241c16);\n  box-shadow: var(--shadow, 0.45rem 0.7rem 1.15rem rgba(36, 28, 22, 0.16));\n}\n.ds-dialog-top { display: flex; justify-content: flex-end; }\n.ds-lb {\n  min-height: 44px;\n  min-width: 44px;\n  padding: 0.4rem 0.8rem;\n  border: 1.5px solid var(--ink, #241c16);\n  background: transparent;\n  color: var(--ink, #241c16);\n  font-family: var(--hand, \"Shantell Sans\", \"Segoe Print\", \"Bradley Hand\", cursive);\n  font-weight: 600;\n  font-size: 1.125rem;\n  letter-spacing: -0.02em;\n  cursor: pointer;\n}\n.ds-lb:hover { background: var(--ink, #241c16); color: var(--paper, #f6efe4); }\n.ds-lb:focus-visible {\n  outline: 2px solid var(--walnut-deep, #4e291c);\n  outline-offset: 3px;\n}\n.ds-well {\n  margin-top: 0.55rem;\n  height: 10rem;\n  background: #e7dccb;\n}\n.ds-lb-title {\n  margin: 0.75rem 0 0;\n  font-family: var(--hand, \"Shantell Sans\", \"Segoe Print\", \"Bradley Hand\", cursive);\n  font-weight: 600;\n  font-size: clamp(1.7rem, 4vw, 2.3rem);\n  line-height: 1.05;\n  letter-spacing: -0.03em;\n}\n.ds-rule {\n  display: block;\n  width: min(9rem, 70%);\n  height: 0.55rem;\n  margin: 0.1rem 0 0.15rem;\n}\n.ds-rule path {\n  fill: none;\n  stroke: var(--walnut, #6e3b28);\n  stroke-width: 2.2;\n  stroke-linecap: round;\n  stroke-dasharray: 1;\n}\n.ds-medium {\n  margin: 0;\n  color: var(--graphite, #4a3b32);\n  font-family: var(--serif, \"Source Serif 4\", Palatino, \"Palatino Linotype\", \"Book Antiqua\", serif);\n  font-size: 1rem;\n}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Linen-Bound Sample Card",
+    "overview": "The page is a colourman's sample card lying open in a linen-bound sketchbook. The ground is a warm basket-weave: linen (#e7d6c2) tiled from images/linen.webp at 270px. Each study is a speckled rag sheet, paper (#f6efe4) tiled from images/sheet.webp at 260px, taped at the top and turned a degree off square, with the price left blank. The density is a book. One spread, then leaves, with the binding stitches on the left.\n\nInk writes. Graphite qualifies. Walnut is the only accent, and it stays scarce: the stamp, the pencil, the focus ring, the selection, the floating button. Shantell Sans is the artist's hand. Source Serif 4 is the reading voice. The confirmed rejection is the centered artist template and the sibling dark editorial grid.\n\nMara Ellison and Ink & Linen Studio are fictional. The pictures are photographic stand-ins sitting on the sheets, credited in the colophon.",
+    "keyCharacteristics": [
+      "Linen basket-weave ground and speckled rag sheets, with the sheet lighter than the cloth",
+      "One walnut accent against ink and graphite",
+      "Shantell Sans for the artist's voice, Source Serif 4 for reading",
+      "Pinned, taped, slightly tilted studies and a blank price line",
+      "Walnut pencil strokes, hand-cut WhatsApp stamps, and binding stitches on the left",
+      "One soft ink shadow; a stroke draws in, then yields to reduced motion"
+    ],
+    "rules": [
+      {
+        "name": "The One Walnut Rule",
+        "body": "Walnut is the only accent hue. Ink and graphite do the reading. A second chromatic color does not belong on the page.",
+        "section": "colors"
+      },
+      {
+        "name": "The Lightest Sheet Rule",
+        "body": "The sheet in hand is rag paper, lighter than the linen ground. A study sits on the cloth; it does not darken into a card.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Voices Rule",
+        "body": "Shantell Sans speaks only in the artist's voice: names, titles, the margin, stamps, filters, the price line, counts. Source Serif 4 speaks only when there is something to read: the lede, prose, the medium line, the colophon. A paragraph does not go into the hand, and the studio name does not go into the serif.",
+        "section": "typography"
+      },
+      {
+        "name": "The Open Book Rule",
+        "body": "One book, one gutter, stitches on the left. From 900px the first viewport is a two-page spread: the pinned drawing on the left, the title page on the right. Later leaves stack. The page does not become a centered single column of type, and it does not become a dark editorial grid.",
+        "section": "layout"
+      },
+      {
+        "name": "The Pin Shadow Rule",
+        "body": "A sheet at rest uses the pin shadow and nothing else. The shadow is soft and warm. It is not a hard offset, and it does not appear in a second layer under the same sheet.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Square Sheet Rule",
+        "body": "Rag sheets, the dialog, and the filter chips stay square. The only curves are the hand-cut stamp and the circular floating button.",
+        "section": "shapes"
+      },
+      {
+        "name": "The Slight Tilt Rule",
+        "body": "A pinned sheet sits about a degree off square, each study on its own angle inside -1.5deg to 1.4deg. Hover, when motion is allowed, settles the study flat. The tilt is small enough that the type stays easy to read.",
+        "section": "shapes"
+      },
+      {
+        "name": "The Blank Price Rule",
+        "body": "The price line names the blank and then says \"Quote on request\". It never carries a figure.",
+        "section": "components"
+      },
+      {
+        "name": "The Pencil Rule",
+        "body": "A stroke is walnut, 2.2 wide, round-capped, with pathLength 1. Under a title, and along the process thread, it is one unbroken stroke (stroke-dasharray: 1). Under a resting filter word it is gapped (stroke-dasharray: 0.62 0.16) at 75% opacity.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "Do tile the ground with linen (#e7d6c2) and images/linen.webp at 270px, and tile every sheet with paper (#f6efe4) and images/sheet.webp at 260px.",
+      "Do keep Shantell Sans on the artist's voice and Source Serif 4 on reading, at the sizes in the frontmatter.",
+      "Do pin a study on a square rag sheet with tape at the top, the pin shadow, and a tilt between -1.5deg and 1.4deg.",
+      "Do end each study on the blank price line: \"Price\" at the left, \"Quote on request\" in deep walnut, on a 1px line of ink at 28% opacity.",
+      "Do use the hand-cut stamp for a WhatsApp action and the 3.5rem walnut circle for the floating control.",
+      "Do draw focus as a 2px deep-walnut outline, 3px outside the control, and cancel the pencil draw and the hover lift when the visitor prefers reduced motion."
+    ],
+    "donts": [
+      "Don't add a second accent hue, a dark editorial ground, or a centered single-column hero.",
+      "Don't set a reading paragraph in Shantell Sans, or the studio name and piece titles in Source Serif 4.",
+      "Don't round the rag sheets, the dialog, or the filter chips.",
+      "Don't replace the pin shadow with a hard offset shadow.",
+      "Don't print a price on the blank line."
+    ]
+  }
+}
